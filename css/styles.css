@@ -1,0 +1,12 @@
+body {
+  background-color: #ECECEC;
+}
+
+.mainPhoto {
+  position: relative;
+}
+
+.mainPage .container {
+  padding-top: 190px;
+  background-color: white;
+}
