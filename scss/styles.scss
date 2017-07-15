@@ -1,0 +1,120 @@
+@import "variables";
+
+body {
+  background-color: $bgGray;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+h2 {
+  color: $projBlue;
+  font: {
+    weight: bold;
+  }
+}
+
+strong {
+  color: $projBlue;
+}
+
+.mainPhoto {
+  position: relative;
+  top: -107.5px;
+}
+.mainPage {
+  margin: 107.5px 0 0 0;
+  background-color: white;
+  border-top: 1px solid darkgrey;
+  @media (min-width: 800px) {
+    margin: 107.5px 25px 0 25px;
+    border: 1px solid darkgrey;
+  }
+  @media (min-width: 1000px) {
+    margin: 107.5px 75px 0 75px;
+  }
+  @media (min-width: 1400px) {
+    margin: 107.5px 120px 0 150px;
+  }
+}
+
+.greet {
+
+}
+
+.persInfo {
+  li {
+    font: {
+      size: 17px;
+    }
+    line-height: 30px;
+  } 
+  font: {
+    size: 15px;
+  }
+  .fa {
+    font: {
+      size: 25px;
+    }
+  }
+}
+
+.backgroundSk {
+  .jobItem {
+    background-color: $bgGray;
+    margin-top: 12px;
+    padding: 4px;
+    font: {
+      size: 16px;
+    }
+  }
+  .progress {
+    font: {
+      weight: bold;
+      size: 16px;
+    }
+  }
+}
+
+.servicesProj {
+  .panel {
+    .glyphicon {
+      margin-right: 10px; 
+    }
+    font: {
+      weight: bold;
+      size: 17px;
+    }
+  }
+  .panel-success {
+    background-color: $succGreen;
+    color: darkgreen;
+  }
+  .panel-info {
+    background-color: $infoBlue;
+    color: $projBlue;
+  }
+  .partners {
+    img {
+      padding: 0 0 20px 0;
+    }
+  }
+}
+
+.footer {
+  background-color: $projBlue;
+  padding: 2px 0;
+  // margin: 117.5px 0 0 0;
+    p {
+      color: white;
+      font-weight: bold;
+    }
+}
+
+.row {
+  margin: 30px 0;
+}
+
+
